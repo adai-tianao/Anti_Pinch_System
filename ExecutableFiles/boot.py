@@ -60,14 +60,14 @@ def do_connect():
  import machine
 pins = [machine.Pin(i, machine.Pin.IN) for i in (0, 2, 4, 5, 12, 13, 14, 15)]
 
-html = "https://oss.console.aliyun.com/bucket/oss-cn-beijing/motor-speed/overview"<!DOCTYPE html>
+html = "https://oss.console.aliyun.com/bucket/oss-cn-beijing/motor-speed"<!DOCTYPE html>
 <html>
     <head> <title>ESP8266 Pins</title> </head>
     <body> <h1>ESP8266 Pins</h1>
         <table border="1"> <tr><th>Pin</th><th>Value</th></tr> %s </table>
     </body>
 </html>
-"https://oss.console.aliyun.com/bucket/oss-cn-beijing/motor-speed/overview"
+"https://oss.console.aliyun.com/bucket/oss-cn-beijing/motor-speed"
 
 import socket
 addr = socket.getaddrinfo('0.0.0.0', 80)[0][-1]
