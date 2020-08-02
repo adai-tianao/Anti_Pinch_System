@@ -58,7 +58,7 @@
 
 ## 车窗防夹控制系统仿真波形
 	
-	[simulation1](https://github.com/adai-tianao/Anti_Pinch_System/blob/master/images/%E4%BB%BF%E7%9C%9F%E6%B3%A2%E5%BD%A21.jpg)
+	![Image text]https://raw.githubusercontent.com/adai-tianao/Anti_Pinch_System/master/images/%E8%BD%A6%E7%AA%97%E9%98%B2%E5%A4%B9%E8%AF%95%E6%A0%B7.png)
 	+ ①：检测到开始上升命令，INM（instrument：MOTOR）开始工作；
 	+ ②：检测到中断信号（遇阻，手肘等放在了车窗上），电机停止转动
 	+ ③：在中断期间及时发出上升命令也不会理睬
