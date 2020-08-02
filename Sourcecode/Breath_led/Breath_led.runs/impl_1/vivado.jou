@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Wed Jul 29 22:12:35 2020
+# Process ID: 13472
+# Current directory: E:/XILINX/savefiles/anti_pinch/Breath_led/Breath_led.runs/impl_1
+# Command line: vivado.exe -log Breath_led.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source Breath_led.tcl -notrace
+# Log file: E:/XILINX/savefiles/anti_pinch/Breath_led/Breath_led.runs/impl_1/Breath_led.vdi
+# Journal file: E:/XILINX/savefiles/anti_pinch/Breath_led/Breath_led.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source Breath_led.tcl -notrace

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Sun Aug  2 22:38:11 2020
+# Process ID: 5456
+# Current directory: E:/XILINX/savefiles/anti_pinch/MOTOR_SPEED_PWM/MOTOR_SPEED_PWM.runs/synth_1
+# Command line: vivado.exe -log MOTOR_SPEED_PWM.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source MOTOR_SPEED_PWM.tcl
+# Log file: E:/XILINX/savefiles/anti_pinch/MOTOR_SPEED_PWM/MOTOR_SPEED_PWM.runs/synth_1/MOTOR_SPEED_PWM.vds
+# Journal file: E:/XILINX/savefiles/anti_pinch/MOTOR_SPEED_PWM/MOTOR_SPEED_PWM.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source MOTOR_SPEED_PWM.tcl -notrace

@@ -1,0 +1,20 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Sun Aug  2 22:37:18 2020
+# Process ID: 12328
+# Current directory: E:/XILINX/savefiles/anti_pinch/MOTOR_SPEED_PWM
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent19988 E:\XILINX\savefiles\anti_pinch\MOTOR_SPEED_PWM\MOTOR_SPEED_PWM.xpr
+# Log file: E:/XILINX/savefiles/anti_pinch/MOTOR_SPEED_PWM/vivado.log
+# Journal file: E:/XILINX/savefiles/anti_pinch/MOTOR_SPEED_PWM\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/XILINX/savefiles/anti_pinch/MOTOR_SPEED_PWM/MOTOR_SPEED_PWM.xpr
+update_compile_order -fileset sources_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1

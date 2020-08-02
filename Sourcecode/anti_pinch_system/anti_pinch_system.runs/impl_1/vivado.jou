@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Sun Aug  2 15:56:27 2020
+# Process ID: 18252
+# Current directory: E:/XILINX/savefiles/anti_pinch/anti_pinch_system/anti_pinch_system.runs/impl_1
+# Command line: vivado.exe -log anti_pinch_top.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source anti_pinch_top.tcl -notrace
+# Log file: E:/XILINX/savefiles/anti_pinch/anti_pinch_system/anti_pinch_system.runs/impl_1/anti_pinch_top.vdi
+# Journal file: E:/XILINX/savefiles/anti_pinch/anti_pinch_system/anti_pinch_system.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source anti_pinch_top.tcl -notrace

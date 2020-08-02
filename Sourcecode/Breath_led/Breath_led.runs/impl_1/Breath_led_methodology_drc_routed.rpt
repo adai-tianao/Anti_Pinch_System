@@ -1,0 +1,151 @@
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Wed Jul 29 22:13:38 2020
+| Host         : DESKTOP-K1HP0BF running 64-bit major release  (build 9200)
+| Command      : report_methodology -file Breath_led_methodology_drc_routed.rpt -pb Breath_led_methodology_drc_routed.pb -rpx Breath_led_methodology_drc_routed.rpx
+| Design       : Breath_led
+| Device       : xc7s15ftgb196-1
+| Speed File   : -1
+| Design State : Fully Routed
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Report Methodology
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+             Max violations: <unlimited>
+             Violations found: 23
++-----------+----------+-------------------------------+------------+
+| Rule      | Severity | Description                   | Violations |
++-----------+----------+-------------------------------+------------+
+| TIMING-16 | Warning  | Large setup violation         | 21         |
+| TIMING-18 | Warning  | Missing input or output delay | 2          |
++-----------+----------+-------------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+TIMING-16#1 Warning
+Large setup violation  
+There is a large setup violation of -5.930 ns between u_pwm/mode_reg[0]/C (clocked by SYSCLK) and u_pwm/T_UP_reg[15]/D (clocked by SYSCLK). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#2 Warning
+Large setup violation  
+There is a large setup violation of -5.953 ns between u_pwm/mode_reg[0]/C (clocked by SYSCLK) and u_pwm/T_UP_reg[1]/D (clocked by SYSCLK). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#3 Warning
+Large setup violation  
+There is a large setup violation of -5.963 ns between u_pwm/mode_reg[0]/C (clocked by SYSCLK) and u_pwm/T_UP_reg[20]/D (clocked by SYSCLK). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#4 Warning
+Large setup violation  
+There is a large setup violation of -5.989 ns between u_pwm/mode_reg[0]/C (clocked by SYSCLK) and u_pwm/T_UP_reg[18]/D (clocked by SYSCLK). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#5 Warning
+Large setup violation  
+There is a large setup violation of -5.989 ns between u_pwm/mode_reg[0]/C (clocked by SYSCLK) and u_pwm/T_UP_reg[6]/D (clocked by SYSCLK). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#6 Warning
+Large setup violation  
+There is a large setup violation of -5.993 ns between u_pwm/mode_reg[0]/C (clocked by SYSCLK) and u_pwm/T_UP_reg[0]/D (clocked by SYSCLK). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#7 Warning
+Large setup violation  
+There is a large setup violation of -6.047 ns between u_pwm/mode_reg[0]/C (clocked by SYSCLK) and u_pwm/T_UP_reg[16]/D (clocked by SYSCLK). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#8 Warning
+Large setup violation  
+There is a large setup violation of -6.068 ns between u_pwm/mode_reg[0]/C (clocked by SYSCLK) and u_pwm/T_UP_reg[17]/D (clocked by SYSCLK). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#9 Warning
+Large setup violation  
+There is a large setup violation of -6.075 ns between u_pwm/mode_reg[0]/C (clocked by SYSCLK) and u_pwm/T_UP_reg[19]/D (clocked by SYSCLK). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#10 Warning
+Large setup violation  
+There is a large setup violation of -6.103 ns between u_pwm/mode_reg[0]/C (clocked by SYSCLK) and u_pwm/T_UP_reg[8]/D (clocked by SYSCLK). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#11 Warning
+Large setup violation  
+There is a large setup violation of -6.113 ns between u_pwm/mode_reg[0]/C (clocked by SYSCLK) and u_pwm/T_UP_reg[9]/D (clocked by SYSCLK). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#12 Warning
+Large setup violation  
+There is a large setup violation of -6.139 ns between u_pwm/mode_reg[0]/C (clocked by SYSCLK) and u_pwm/T_UP_reg[3]/D (clocked by SYSCLK). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#13 Warning
+Large setup violation  
+There is a large setup violation of -6.144 ns between u_pwm/mode_reg[0]/C (clocked by SYSCLK) and u_pwm/T_UP_reg[14]/D (clocked by SYSCLK). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#14 Warning
+Large setup violation  
+There is a large setup violation of -6.148 ns between u_pwm/mode_reg[0]/C (clocked by SYSCLK) and u_pwm/T_UP_reg[10]/D (clocked by SYSCLK). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#15 Warning
+Large setup violation  
+There is a large setup violation of -6.185 ns between u_pwm/mode_reg[0]/C (clocked by SYSCLK) and u_pwm/T_UP_reg[12]/D (clocked by SYSCLK). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#16 Warning
+Large setup violation  
+There is a large setup violation of -6.202 ns between u_pwm/mode_reg[0]/C (clocked by SYSCLK) and u_pwm/T_UP_reg[11]/D (clocked by SYSCLK). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#17 Warning
+Large setup violation  
+There is a large setup violation of -6.210 ns between u_pwm/mode_reg[0]/C (clocked by SYSCLK) and u_pwm/T_UP_reg[7]/D (clocked by SYSCLK). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#18 Warning
+Large setup violation  
+There is a large setup violation of -6.215 ns between u_pwm/mode_reg[0]/C (clocked by SYSCLK) and u_pwm/T_UP_reg[4]/D (clocked by SYSCLK). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#19 Warning
+Large setup violation  
+There is a large setup violation of -6.245 ns between u_pwm/mode_reg[0]/C (clocked by SYSCLK) and u_pwm/T_UP_reg[13]/D (clocked by SYSCLK). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#20 Warning
+Large setup violation  
+There is a large setup violation of -6.261 ns between u_pwm/mode_reg[0]/C (clocked by SYSCLK) and u_pwm/T_UP_reg[2]/D (clocked by SYSCLK). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#21 Warning
+Large setup violation  
+There is a large setup violation of -6.262 ns between u_pwm/mode_reg[0]/C (clocked by SYSCLK) and u_pwm/T_UP_reg[5]/D (clocked by SYSCLK). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-18#1 Warning
+Missing input or output delay  
+An input delay is missing on RST_N relative to clock(s) SYSCLK
+Related violations: <none>
+
+TIMING-18#2 Warning
+Missing input or output delay  
+An output delay is missing on led relative to clock(s) SYSCLK
+Related violations: <none>
+
+

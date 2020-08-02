@@ -1,0 +1,7 @@
+Running: xsim.dir/anti_pinch_tb_behav/xsimk.exe -simmode gui -wdb anti_pinch_tb_behav.wdb -simrunnum 0 -socket 53747
+Design successfully loaded
+Design Loading Memory Usage: 5420 KB (Peak: 5420 KB)
+Design Loading CPU Usage: 62 ms
+Simulation completed
+Simulation Memory Usage: 7024 KB (Peak: 7024 KB)
+Simulation CPU Usage: 77 ms

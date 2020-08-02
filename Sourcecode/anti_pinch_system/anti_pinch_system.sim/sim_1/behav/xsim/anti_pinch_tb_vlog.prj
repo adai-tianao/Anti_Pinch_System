@@ -1,0 +1,10 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../anti_pinch_system.ip_user_files/anti_pinch.v" \
+"../../../../anti_pinch_system.ip_user_files/anti_pinch_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

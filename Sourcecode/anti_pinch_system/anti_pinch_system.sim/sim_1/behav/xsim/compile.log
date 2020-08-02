@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/XILINX/savefiles/anti_pinch/anti_pinch_system/anti_pinch_system.ip_user_files/anti_pinch.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module anti_pinch
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/XILINX/savefiles/anti_pinch/anti_pinch_system/anti_pinch_system.ip_user_files/anti_pinch_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module anti_pinch_tb
