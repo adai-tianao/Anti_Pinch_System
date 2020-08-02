@@ -90,4 +90,4 @@
 + PWM模块是自己编写的可控周期与占空比、占空比分度的设计文件，为了测试，编写了led呼吸灯([演示](https://github.com/adai-tianao/Anti_Pinch_System/blob/master/images/IMG_4250.MP4))
 
 + 电机速度反馈的方式选择为连接WIFI，实现板子与电脑的通信。使用Micropython语言编写，直接写入
-boot.py中
+[boot.py](https://github.com/adai-tianao/Anti_Pinch_System/blob/master/ExecutableFiles/boot.py)中。具体方法详见[ESP32_NETWORK](https://docs.micropython.org/en/latest/esp8266/tutorial/network_basics.html)
