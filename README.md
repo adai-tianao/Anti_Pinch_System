@@ -58,19 +58,19 @@
 
 ## 车窗防夹控制系统仿真波形
 	
-	![Image text]https://raw.githubusercontent.com/adai-tianao/Anti_Pinch_System/master/images/%E8%BD%A6%E7%AA%97%E9%98%B2%E5%A4%B9%E8%AF%95%E6%A0%B7.png)
+	[simulation1]
 	+ ①：检测到开始上升命令，INM（instrument：MOTOR）开始工作；
 	+ ②：检测到中断信号（遇阻，手肘等放在了车窗上），电机停止转动
 	+ ③：在中断期间及时发出上升命令也不会理睬
 	+ ④：在上升或者下降的过程中，按上升控制键或下降控制键均可停止电机转动
 	+ ⑤：检测到上升命令，电机工作（上升），之后没有停止信号，一直到指定位置
-	[simulation2](https://github.com/adai-tianao/Anti_Pinch_System/blob/master/images/%E4%BB%BF%E7%9C%9F%E6%B3%A2%E5%BD%A22.png)
+	[simulation2]
 	+ ⑥：上升到特定位置，电机停止驱动
 	+ ⑦：上升到特定位置后，及时发出上升信号，电机也不会驱动
 	+ ⑧：监测到下降信号，开始下降
 	+ ⑨⑩⑪：对应转换上升下降功能，从⑨到⑩对应从下降到上升；从⑩到⑪对应从上升到下降；体现出
 	车窗位置可调节的任意性
-	[simulation3](https://github.com/adai-tianao/Anti_Pinch_System/blob/master/images/%E4%BB%BF%E7%9C%9F%E6%B3%A2%E5%BD%A23.jpg)
+	[simulation3]
 	+ ⑫：修改模式下上升到触发中断信号（即车窗上升到顶端）停止，即完成自动校正。
 	下降修正同理。
 
