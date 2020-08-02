@@ -6,7 +6,7 @@
 
 	+ 设计的目的：是一个电驱动、可自动上升或下降的车窗控制系统，该车窗控制系统具有防夹
 	以及遇障碍物而自动停止动作的功能，并且具有自动修复误差的功能。
-	+ 相关知识：FPGA对嵌入式系统的开发
+	+ 相关知识：FPGA对嵌入式系统的开发、FSM、esp32WIFI的连接
 	+ 应用方向： 本项目针对车窗自动升降所遇到的安全问题，提出了一种基于FPGA的解决方案，
 	此方案不仅适用于车窗，也可以用于门窗、其他需要防止因阻力过大而导致损坏器件的地方等。
 	
@@ -57,6 +57,11 @@
 		所有verilog文件(包括测试文件)
 
 ## 车窗防夹控制系统仿真波形
+  [simulation1](https://github.com/adai-tianao/Anti_Pinch_System/blob/master/images/%E4%BB%BF%E7%9C%9F%E6%B3%A2%E5%BD%A21.jpg)
+  
+  [simulation2](https://github.com/adai-tianao/Anti_Pinch_System/blob/master/images/%E4%BB%BF%E7%9C%9F%E6%B3%A2%E5%BD%A22.png)
+  
+  [simulation3](https://github.com/adai-tianao/Anti_Pinch_System/blob/master/images/%E4%BB%BF%E7%9C%9F%E6%B3%A2%E5%BD%A23.jpg)
 	
 	[simulation1]
 	+ ①：检测到开始上升命令，INM（instrument：MOTOR）开始工作；
@@ -74,6 +79,15 @@
 	+ ⑫：修改模式下上升到触发中断信号（即车窗上升到顶端）停止，即完成自动校正。
 	下降修正同理。
 
+## [车窗防夹控制系统总体框架](https://github.com/adai-tianao/Anti_Pinch_System/blob/master/images/%E7%B3%BB%E7%BB%9F%E6%A1%86%E5%9B%BE.JPG)
 
 
+## [车窗防夹控制系统状态转换图](https://github.com/adai-tianao/Anti_Pinch_System/blob/master/images/%E7%94%B5%E6%9C%BA%E7%8A%B6%E6%80%81%E5%9B%BE.JPG)
 
+
+## 对其他vivado工程以及使用WIFI的说明 
+
++ PWM模块是自己编写的可控周期与占空比、占空比分度的设计文件，为了测试，编写了led呼吸灯([演示](https://github.com/adai-tianao/Anti_Pinch_System/blob/master/images/IMG_4250.MP4))
+
++ 电机速度反馈的方式选择为连接WIFI，实现板子与电脑的通信。使用Micropython语言编写，直接写入
+boot.py中
